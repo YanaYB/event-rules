@@ -1,0 +1,22 @@
+{
+  "name": "event-rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@fastify/env": "^5.0.3",
+    "@fastify/postgres": "^6.0.2",
+    "@fastify/sensible": "^6.0.4",
+    "@fastify/type-provider-typebox": "^6.1.0",
+    "fastify": "^5.6.2",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.16.0",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
